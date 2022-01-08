@@ -1,7 +1,6 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
 import avatar from '../img/avatar.jpg';
-import HomePage from '../Pages/HomePage';
 
 function NavBar() {
   return (
@@ -27,8 +26,8 @@ function NavBar() {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/blogs" exact activeClassName="active">
-              Blogs
+            <NavLink to="/blog" exact activeClassName="active">
+              Blog
             </NavLink>
             <li className="nav-item">
               <NavLink to="/contacts" exact activeClassName="active">

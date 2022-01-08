@@ -1,0 +1,68 @@
+.ImageSection {
+  display: flex;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+  .img {
+    width: 115%;
+    //height: 50vh;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .about-info {
+    margin-left: 2rem;
+
+    h4 {
+      font-size: 2rem;
+    }
+
+    .about-text {
+      padding: 1rem 0;
+    }
+
+    .about-details {
+      display: flex;
+
+      p {
+        padding: .3rem 0;
+      }
+
+      .right-section {
+        margin-left: 2.3rem;
+      }
+    }
+
+    .btn {
+      position: relative;
+      padding: 1rem 2rem;
+      background-color: #037FFF;
+      outline: none;
+      border: none;
+      font-family: inherit;
+      font-size: inherit;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      cursor: pointer;
+      margin-top: 1rem;
+      &::after {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: .3rem;
+        left: 0;
+        bottom: 0;
+        background-color: #a4acc4;
+        transition: all 0.4s ease-in-out;
+      }
+      &:hover::after {
+        width: 100%;
+      }
+    }
+  }
+}

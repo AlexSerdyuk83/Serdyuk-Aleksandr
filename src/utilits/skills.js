@@ -1,0 +1,16 @@
+export const skills = [
+  {name: 'JavaScript', progress: '70%', width: '70%'},
+  {name: 'HTML/CSS/SCSS', progress: '50%', width: '50%'},
+  {name: 'React', progress: '60%', width: '60%'},
+  {name: 'Bootstrap', progress: '50%', width: '50%'},
+  {name: 'React-router, React-router-dom', progress: '60%', width: '60%'},
+  {name: 'Axios', progress: '50%', width: '50%'},
+  {name: 'Redux, React-redux, Redux-thunk', progress: '60%', width: '60%'},
+  {name: 'Lodash', progress: '30%', width: '30%'},
+  {name: 'Ruby', progress: '10%', width: '10%'},
+  {name: 'd3, d3fc', progress: '40%', width: '40%'},
+  {name: 'Ruby on Rails', progress: '5%', width: '5%'},
+  {name: 'Git', progress: '40%', width: '40%'},
+  {name: 'Webpack', progress: '50%', width: '50%'},
+  {name: 'Linux', progress: '30%', width: '30%'},
+]
